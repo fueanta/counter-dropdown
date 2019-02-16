@@ -1,0 +1,46 @@
+.dropdown-toggle {
+  font-size: 1.1em;
+}
+
+.dropdown-menu {
+  margin-top: .5em;
+}
+
+/* DROP DOWN ANCHOR TAG COLOR REMOVAL */
+.persons_div > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.persons_counter_div {
+	padding: .5em;
+	padding-right: 1em;
+}
+
+.persons_counter_label {
+  font-size: .9em;
+}
+
+/* SHIFTING THE SPAN TO THE RIGHT */
+.persons_counter_span {
+	display: block;
+  float: right;
+}
+
+.persons_counter {
+  text-align: center;
+  width: 3.5em;
+}
+
+/* TO HIDE ARROWS FROM INPUT NUMBER */
+/* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} */
+
+/* TO ALWAYS DISPLAY ARROW ON INPUTS TYPE NUMBER */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+  opacity: 1;
+}

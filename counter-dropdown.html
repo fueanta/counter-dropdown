@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Counter Dropdown Sample</title>
+  </head>
+  <body>
+
+    
+    <!-- Your DOM Code Starts -->
+    <div class="mt-3 ml-4">
+
+      <!-- persons Dropdown Starts -->
+      <div class="persons_div" class="dropdown">
+
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+	        <label id="persons_count">1</label>
+	        <span id="persons_word">person</span>
+	        <span class="caret"></span>
+      	</a>
+
+        <ul class="dropdown-menu">
+          <li>
+            <div class="persons_counter_div" id="adults">
+            	<label class="persons_counter_label">Adults</label>
+              <span class="persons_counter_span">
+                <input type="number" class="persons_counter" min="1" value="1" />
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="persons_counter_div" id="youths">
+            	<label class="persons_counter_label">Youths</label>
+              <span class="persons_counter_span">
+                <input type="number" class="persons_counter" min="0" value="0" />
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="persons_counter_div" id="children">
+            	<label class="persons_counter_label">Children</label>
+              <span class="persons_counter_span">
+                <input type="number" class="persons_counter" min="0" value="0" />
+              </span>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <!-- persons Dropdown Ends -->
+
+    </div>
+    <!-- Your DOM Code Ends -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Font Awesome SVG -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+    <!-- Additional JavaScript -->
+    <script src="scripts.js"></script>
+
+  </body>
+</html>
